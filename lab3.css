@@ -1,0 +1,54 @@
+
+body{
+    background-color: plum;
+}
+#foot{
+
+        text-align: center;
+        background-color: blue;
+        margin-top: auto;
+        padding: auto;
+        margin-bottom: auto;
+        clear: both;
+
+}
+
+.name input{
+    border-color: azure;
+
+}
+.name:hover input {
+    width: 200px;
+}
+aside{
+    float: right;
+    padding: 5px;
+    background-color: azure;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    top: 3;
+    width: 25%;
+}
+aside:hover{
+    background-color:rebeccapurple ;
+    transition: .4s;
+}
+.box{
+    background-color: blueviolet;
+    width: 65%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    float: left;
+    
+}
+nav{
+    background-color: firebrick;
+}
+nav:hover{
+    background-color: goldenrod;
+    transition: .4s;
+}
